@@ -1,1 +1,262 @@
-# santebiz
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>csjsantebiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      // Function to show the modal
+      function showModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+      }
+
+      // Function to hide the modal
+      function hideModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+      }
+
+      // Function to show the promotion image
+      function showImage() {
+        var imageContainer = document.getElementById("imageContainer");
+        imageContainer.style.display = "block";
+      }
+
+      // Function to hide the promotion image
+      function hideImage() {
+        var imageContainer = document.getElementById("imageContainer");
+        imageContainer.style.display = "none";
+      }
+    </script>
+  </head>
+  <body onload="showModal()" class="container">
+    <!-- Call showModal() function when the page loads -->
+    <header class="title">
+      <div class="title-content">
+        <h1>Sante Barley - Your Path To Wellness</h1>
+        <p>
+          <b
+            >Welcome to our website! Discover our range of high-quality barley
+            products designed to promote health and vitality.</b
+          >
+        </p>
+      </div>
+    </header>
+    <!-- Button to trigger the modal -->
+    <!--button onclick="showModal()">Open Modal</button-->
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="hideModal()">&times;</span>
+        <h2>Special Promotion!🌟</h2>
+        <p>
+          Be our partners and enjoy the 3+1 promo and a lifetime discount in all
+          SANTE BARLEY products!💚
+        </p>
+        <p>Click the link to learn more.</p>
+
+        <p>
+          <a
+            href="https://www.mysante.com/store.htm?id=emzkee88"
+            class="website-link"
+            >https://www.mysante.com/store.htm?id=emzkee88 🚀</a
+          >
+        </p>
+
+        <!--p>Click the button below to view the promotion image:</p-->
+        <!--button onclick="showImage()" style="background-color: #0084ff; color: #fff; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">View Promo</button>
+        <!-- Image container -->
+        <!--div id="imageContainer" style="display: none;">
+            <img src="img/promo_image.jpeg" alt="Special Promotion Image" class="promo-image">
+            <span class="close" onclick="hideImage()">&times;</span>
+        </div-->
+      </div>
+    </div>
+
+    <section class="intro">
+      <h2>About Us</h2>
+      <p>
+        Sante Barley is a wellness company committed to providing high-quality
+        barley products that promote health and vitality. We believe in the
+        power of nature to nourish and heal, and our commitment to quality
+        ensures that every product we offer meets the highest standards of
+        purity and efficacy.
+      </p>
+    </section>
+    <section class="overview">
+      <h2>Company Overview</h2>
+      <p>
+        Sante Barley was founded with a vision to empower people to live
+        healthier and happier lives through natural and sustainable products. We
+        are guided by the principles of integrity, quality, innovation, and
+        community, and we strive to make a positive impact on the health and
+        well-being of our customers and the planet.
+      </p>
+    </section>
+    <section class="mission-values">
+      <h2>Mission and Values</h2>
+      <p>
+        At Sante Barley, our mission is to inspire and empower individuals to
+        take control of their health and wellness naturally. We are guided by
+        the following core values:
+      </p>
+      <ul>
+        <li>
+          <strong>Integrity:</strong> We are committed to transparency, honesty,
+          and ethical business practices in everything we do.
+        </li>
+        <li>
+          <strong>Quality:</strong> We adhere to the highest standards of
+          quality and purity, sourcing only the finest ingredients for our
+          products.
+        </li>
+        <li>
+          <strong>Innovation:</strong> We continually strive to innovate and
+          improve, harnessing the latest research and technology to enhance our
+          products and services.
+        </li>
+        <li>
+          <strong>Community:</strong> We believe in the power of community and
+          collaboration, supporting our customers, partners, and employees in
+          achieving their health and wellness goals.
+        </li>
+      </ul>
+    </section>
+    <section class="why-choose">
+      <h2>Why Choose Sante Barley?</h2>
+      <ul>
+        <li>
+          <strong>Premium Quality:</strong> Our products are made from the
+          finest organic barley grass, carefully harvested and processed to
+          preserve their nutritional integrity.
+        </li>
+        <li>
+          <strong>Scientifically Proven:</strong> Backed by scientific research
+          and testing, our products are proven to deliver real results for
+          health and wellness.
+        </li>
+        <li>
+          <strong>Trusted Brand:</strong> With years of experience and thousands
+          of satisfied customers, Sante Barley is a trusted name in the wellness
+          industry.
+        </li>
+        <li>
+          <strong>Commitment to Sustainability:</strong> We are committed to
+          sustainability and environmental responsibility, from our sourcing
+          practices to our packaging and manufacturing processes.
+        </li>
+      </ul>
+    </section>
+    <section class="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product">
+          <a
+            href="https://app.santebarley.com/shop/SPHN09368?sponsor=emzkee88&source=MySante&ctrycode=PH"
+            ><img
+              src="img/barley_grass_powder.jpg"
+              alt="Sante Barley Grass Powder"
+          /></a>
+          <h3>Sante Barley Grass Powder</h3>
+          <p>
+            Rich in vitamins, minerals, enzymes, and antioxidants, it supports
+            immune function, detoxification, and overall well-being.
+          </p>
+        </div>
+        <div class="product">
+          <a
+            href="https://app.santebarley.com/shop/SN0929?sponsor=emzkee88&source=MySante&ctrycode=PH"
+            ><img src="img/barley_capsules.jpg" alt="Sante Barley Capsules"
+          /></a>
+          <h3>Sante Barley Capsules</h3>
+          <p>
+            Convenient capsules containing pure barley grass powder for easy
+            consumption.
+          </p>
+        </div>
+        <div class="product">
+          <a
+            href="https://app.santebarley.com/shop/SPHN02331?sponsor=emzkee88&source=MySante&ctrycode=PH"
+            ><img src="img/daily_c_plus.jpg" alt="Sante Barley Daily-C plus"
+          /></a>
+          <h3>Sante Barley Daily-C plus</h3>
+          <p>
+            A combination of Ascorbic Acid (Vitamin C) and Zinc, providing
+            immune support and overall health benefits.
+          </p>
+        </div>
+        <div class="product">
+          <a
+            href="https://app.santebarley.com/shop/SB0204?sponsor=emzkee88&source=MySante&ctrycode=PH"
+            ><img src="img/boost_coffee.jpg" alt="Sante Boost Coffee"
+          /></a>
+          <h3>Sante Boost Coffee</h3>
+          <p>
+            A delicious and nutritious coffee blend infused with barley grass
+            extract for an added health boost.
+          </p>
+        </div>
+        <div class="product">
+          <a
+            href="https://app.santebarley.com/shop/SN0910?sponsor=emzkee88&source=MySante&ctrycode=PH"
+            ><img src="img/fusion_coffee.jpg" alt="Sante Fusion Coffee"
+          /></a>
+          <h3>Sante Fusion Coffee</h3>
+          <p>
+            A unique blend of coffee and barley grass extract, combining the
+            rich flavor of coffee with the health benefits of barley.
+          </p>
+        </div>
+        <div class="product">
+          <a
+            href="https://app.santebarley.com/shop/SB0113?sponsor=emzkee88&source=MySante&ctrycode=PH"
+            ><img src="img/fit_n_trim.jpg" alt="Sante Fit N' Trim"
+          /></a>
+          <h3>Sante Fit N' Trim</h3>
+          <p>
+            A weight management supplement formulated with barley grass extract
+            and other natural ingredients to support a healthy metabolism.
+          </p>
+        </div>
+        <div class="product">
+          <a
+            href="https://app.santebarley.com/shop/SB0301?sponsor=emzkee88&source=MySante&ctrycode=PH"
+            ><img src="img/choco_barley.jpg" alt="Sante Choco Barley"
+          /></a>
+          <h3>Sante Choco Barley</h3>
+          <p>
+            A delicious chocolate drink infused with barley grass extract,
+            providing a tasty and nutritious treat.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p1>Be Our Partners!</p1>
+      <p2>Contact us to learn more or place an order:</p2>
+      <ul>
+        <li>
+          Website:<a href="https://www.mysante.com/store.htm?id=emzkee88"
+            >https://www.mysante.com/store.htm?id=emzkee88</a
+          >
+        </li>
+        <li>
+          Website:<a href="https://www.mysante.com/store.htm?id=cjuen_sb"
+            >https://www.mysante.com/store.htm?id=cjuen_sb</a
+          >
+        </li>
+        <li>
+          Email:
+          <a href="mailto:cendymay.santebiz@gmail.com"
+            >cendymay.santebiz@gmail.com</a
+          >
+        </li>
+        <li>Phone: <a href="tel:+63 9914560852">+63 9914560852</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
